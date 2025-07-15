@@ -27,7 +27,7 @@ export default function Analytics() {
       </noscript>
 
       {/* Meta Pixel Script */}
-      <Script id="facebook-pixel" strategy="afterInteractive">
+      {/* <Script id="facebook-pixel" strategy="afterInteractive">
         {`
           !function(f,b,e,v,n,t,s){
             if(f.fbq)return;n=f.fbq=function(){
@@ -48,9 +48,9 @@ export default function Analytics() {
           fbq('init', '1068740558110633');
           fbq('track', 'PageView');
         `}
-      </Script>
+      </Script> */}
 
-      {/* Meta Pixel NoScript */}
+      {/* Meta Pixel NoScript
       <noscript>
         <img
           height="1"
@@ -58,7 +58,7 @@ export default function Analytics() {
           style={{ display: 'none' }}
           src="https://www.facebook.com/tr?id=1068740558110633&ev=PageView&noscript=1"
         />
-      </noscript>
+      </noscript> */}
     </>
   )
 }
