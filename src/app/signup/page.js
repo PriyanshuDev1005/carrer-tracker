@@ -8,11 +8,11 @@ import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 
 export default function SignupPage() {
-   useEffect(() => {
-    if (typeof window !== 'undefined' && window.fbq) {
-      window.fbq('trackCustom', 'SignupPageVisited');
-    }
-  }, []);
+  //  useEffect(() => {
+  //   if (typeof window !== 'undefined' && window.fbq) {
+  //     window.fbq('trackCustom', 'SignupPageVisited');
+  //   }
+  // }, []);
   const router = useRouter();
 
   const [form, setForm] = useState({

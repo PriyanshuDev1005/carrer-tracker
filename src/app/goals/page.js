@@ -6,11 +6,11 @@ import { Calendar } from '@/components/ui/calendar'
 import { useEffect, useState } from 'react'
 
 export default function CareerGoalsPage() {
-  useEffect(() => {
-    if (typeof window !== 'undefined' && window.fbq) {
-      window.fbq('trackCustom', 'GoalsPageVisited');
-    }
-  }, []);
+  // useEffect(() => {
+  //   if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+  //     window.fbq('trackCustom', 'GoalsPageVisited');
+  //   }
+  // }, []);
   const [date, setDate] = useState(new Date())
 
   return (

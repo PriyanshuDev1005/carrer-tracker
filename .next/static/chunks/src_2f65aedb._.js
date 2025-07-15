@@ -438,13 +438,11 @@ var _s = __turbopack_context__.k.signature();
 ;
 function CareerGoalsPage() {
     _s();
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "CareerGoalsPage.useEffect": ()=>{
-            if ("object" !== 'undefined' && window.fbq) {
-                window.fbq('trackCustom', 'GoalsPageVisited');
-            }
-        }
-    }["CareerGoalsPage.useEffect"], []);
+    // useEffect(() => {
+    //   if (typeof window !== 'undefined' && typeof window.fbq === 'function') {
+    //     window.fbq('trackCustom', 'GoalsPageVisited');
+    //   }
+    // }, []);
     const [date, setDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(new Date());
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "space-y-4",
@@ -502,7 +500,7 @@ function CareerGoalsPage() {
         columnNumber: 5
     }, this);
 }
-_s(CareerGoalsPage, "BXO23EiGbV6j7iQ6IwQiWMvj9dE=");
+_s(CareerGoalsPage, "rW+rxy2mJ1oFEB1Cqg4Z2uVJym0=");
 _c = CareerGoalsPage;
 var _c;
 __turbopack_context__.k.register(_c, "CareerGoalsPage");
