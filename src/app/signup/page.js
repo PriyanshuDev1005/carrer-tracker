@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,6 +8,11 @@ import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 
 export default function SignupPage() {
+   useEffect(() => {
+    if (typeof window !== 'undefined' && window.fbq) {
+      window.fbq('trackCustom', 'SignupPageVisited');
+    }
+  }, []);
   const router = useRouter();
 
   const [form, setForm] = useState({

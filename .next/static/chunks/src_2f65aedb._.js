@@ -438,6 +438,13 @@ var _s = __turbopack_context__.k.signature();
 ;
 function CareerGoalsPage() {
     _s();
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "CareerGoalsPage.useEffect": ()=>{
+            if ("object" !== 'undefined' && window.fbq) {
+                window.fbq('trackCustom', 'GoalsPageVisited');
+            }
+        }
+    }["CareerGoalsPage.useEffect"], []);
     const [date, setDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(new Date());
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "space-y-4",
@@ -447,7 +454,7 @@ function CareerGoalsPage() {
                 children: "Career Goals"
             }, void 0, false, {
                 fileName: "[project]/src/app/goals/page.js",
-                lineNumber: 13,
+                lineNumber: 18,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -458,7 +465,7 @@ function CareerGoalsPage() {
                             placeholder: "Enter your career goal..."
                         }, void 0, false, {
                             fileName: "[project]/src/app/goals/page.js",
-                            lineNumber: 16,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$calendar$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Calendar"], {
@@ -467,35 +474,35 @@ function CareerGoalsPage() {
                             onSelect: setDate
                         }, void 0, false, {
                             fileName: "[project]/src/app/goals/page.js",
-                            lineNumber: 17,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                             children: "Add Goal"
                         }, void 0, false, {
                             fileName: "[project]/src/app/goals/page.js",
-                            lineNumber: 18,
+                            lineNumber: 23,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/goals/page.js",
-                    lineNumber: 15,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/goals/page.js",
-                lineNumber: 14,
+                lineNumber: 19,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/goals/page.js",
-        lineNumber: 12,
+        lineNumber: 17,
         columnNumber: 5
     }, this);
 }
-_s(CareerGoalsPage, "rW+rxy2mJ1oFEB1Cqg4Z2uVJym0=");
+_s(CareerGoalsPage, "BXO23EiGbV6j7iQ6IwQiWMvj9dE=");
 _c = CareerGoalsPage;
 var _c;
 __turbopack_context__.k.register(_c, "CareerGoalsPage");

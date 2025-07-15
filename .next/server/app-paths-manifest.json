@@ -1,5 +1,7 @@
 {
-  "/charts/page": "app/charts/page.js",
+  "/api/tasks/route": "app/api/tasks/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/goals/page": "app/goals/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/tasks/page": "app/tasks/page.js"
 }
