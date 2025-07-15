@@ -6,7 +6,7 @@ export default function Analytics() {
   return (
     <>
       {/* Google Tag Manager Script */}
-      <Script id="gtm-script" strategy="afterInteractive">
+      {/* <Script id="gtm-script" strategy="afterInteractive">
         {`
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -14,17 +14,17 @@ export default function Analytics() {
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-NDD2GCW8');
         `}
-      </Script>
+      </Script> */}
 
       {/* Google Tag Manager NoScript */}
-      <noscript>
+      {/* <noscript>
         <iframe
           src="https://www.googletagmanager.com/ns.html?id=GTM-NDD2GCW8"
           height="0"
           width="0"
           style={{ display: 'none', visibility: 'hidden' }}
         />
-      </noscript>
+      </noscript> */}
 
       {/* Meta Pixel Script */}
       {/* <Script id="facebook-pixel" strategy="afterInteractive">
